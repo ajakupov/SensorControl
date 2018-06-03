@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:textSize="25dp"
+            android:text="Name"
+            android:padding="10dp" />
+        <TextView
+            android:textSize="25dp"
+            android:id="@+id/profile_name"
+            android:text="username"
+            android:gravity="right"
+            android:padding="10dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textSize="25dp"
+            android:text="Surname"
+            android:padding="10dp" />
+        <TextView
+            android:textSize="25dp"
+            android:id="@+id/profile_surname"
+            android:text="usersurname"
+            android:gravity="right"
+            android:padding="10dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textSize="25dp"
+            android:text="Position"
+            android:padding="10dp" />
+        <TextView
+            android:textSize="25dp"
+            android:id="@+id/profile_position"
+            android:text="userposition"
+            android:gravity="right"
+            android:padding="10dip" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:textSize="25dp"
+            android:text="e-mail"
+            android:padding="10dp" />
+        <TextView
+            android:textSize="25dp"
+            android:id="@+id/profile_email"
+            android:text="useremail"
+            android:gravity="right"
+            android:padding="10dip" />
+    </TableRow>
+</TableLayout>
